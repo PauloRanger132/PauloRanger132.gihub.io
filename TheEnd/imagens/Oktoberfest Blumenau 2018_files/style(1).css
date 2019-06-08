@@ -1,0 +1,291 @@
+/*
+    Theme Name: Oktoberfest Blumenau 2018
+    Author: Labbo
+    Author URI: https://labbo.com.br/
+    Version: 1.0
+*/
+
+.buttonForm{
+    height: 60px;
+    font-size: 1.1em;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #21680A;
+    border-radius: 30px;
+    padding: 0px 30px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+#noticias .container .buttonCreden{
+    height: 50px;
+    font-size: 1.1em;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: super;
+    text-decoration: none;
+    background-color: #21680A;
+    border-radius: 30px;
+    padding: 0px 15px;
+    font-weight: 400;
+    color: #FFF;
+    margin-left: 85px;
+}
+
+.title-karte{
+    color: #21680A!important;
+    font-weight: 700;
+    font-size: 20px;
+    margin:0;
+}
+
+#noticias .container .title{
+    display: inline-block;
+}
+
+#page.ingressos > .comprar > .left > .row > .text > p:nth-child(7){
+    display: inline-block;
+}
+
+#page.ingressos > .comprar > .left > .row > .text > p:nth-child(6){
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#page.ingressos > .regras-karte > .container > .columns > .column > h3{
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #21680A;
+    margin-bottom: 40px;
+}
+
+#page.ingressos > .regras-karte > .container > .columns > .column > .item > p{
+    color: #737369;
+}
+
+#page.ingressos > .regras-karte{
+    width: 100%;
+    display: table;
+    padding-top: 150px;
+    background: url(./assets/imgs/bg-ingressos-2.png) top center no-repeat;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+#page.ingressos > .regras-karte > .container > .columns{
+    width: 100%;
+}
+
+#page.ingressos > .regras-karte > .container > .columns > .column{
+    width: calc(25% - 20px);
+    float: left;
+}
+
+#regras-karte p{
+    color: #737369;
+}
+
+.regras-karte .item{
+    padding: 10px;
+}
+
+#page.ingressos > .comprar > .left > .row > .item > .title{
+    color: #21680A;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#page.ingressos > .sections{
+    width: 100%;
+    background-color: #205A0A;
+    color: #FFF;
+}
+
+#page.ingressos > .sections > ul{
+    text-align: center;
+}
+
+#page.ingressos > .sections > ul > li{
+    height: 110px;
+    line-height: 110px;
+    list-style: none;
+    padding: 0px 40px;
+    border-right: 1px solid #194408;
+    display: inline-block;
+}
+
+#page.ingressos > .sections > ul > li > a{
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 0px 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #FFF;
+}
+
+#page.ingressos > .sections > ul > li:last-child{
+    border-right: none;
+}
+
+#page .map-top > .container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#page .map-top > .container > .button{
+    width: 330px;
+    float: left;
+    vertical-align: middle;
+}
+
+#page .map-top > .container > .button > a{
+    height: 60px;
+    font-size: 1.1em;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #21680A;
+    border-radius: 30px;
+    padding: 0px 30px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+#page .map-top > .container > .image{
+    width: -webkit-calc(100% - 360px);
+    width: -moz-calc(100% - 360px);
+    width: -o-calc(100% - 360px);
+    width: calc(100% - 360px);
+    float: right;
+}
+
+#page .map-top > .container > .image > .map{
+    display: table;
+    position: relative;
+}
+
+#page .map-top > .container > .image > .map > img{
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+}
+
+#page .container > .left > .buttons > .item{
+    width: 45%;
+    margin-bottom: 20px;
+    float: left;
+    display: inline-block;
+}
+
+#page .container > .left > .buttons > .item > a{
+    height: 60px;
+    font-size: 1.1em;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #21680A;
+    border-radius: 30px;
+    padding: 0px 30px;
+    font-weight: 400;
+    color: #FFF;
+    margin-left: -60px;
+}
+
+#page .container > .left > .buttons > .item > .carousel-cell > a{
+    height: 60px;
+    font-size: 1.1em;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: #21680A;
+    border-radius: 30px;
+    padding: 0px 30px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+#page.ingressos > .sections > ul > li:hover > a, #page.ingressos > .sections > ul > li .active > a{
+    background-color: #194408;
+}
+
+@media (max-width: 1400px){
+    .buttonForm{
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .buttonCreden{
+        height: 45px;
+        line-height: 45px;
+        margin-left: 50px;
+    }
+    
+    .carousel-cell{
+        left:11%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #page.ingressos > .regras-karte{
+        padding-top: 120px;
+    }
+
+    #page.ingressos > .regras-karte > .container > .columns{
+        display: table;
+    }
+
+    #page.ingressos > .regras-karte > .container > .columns > .column{
+        width: 100%;
+    }
+
+    #page.ingressos > .regras-karte > .container > .columns > .column > h3{
+        text-align: center
+    }
+
+    #noticias>.container>.content>.title{
+        font-size: 2.7em;
+    }
+
+    .flickity-page-dots{
+        bottom: -50px;
+    }
+
+    #noticias .container .buttonCreden{
+        margin-left: 5px;
+        font-size: 1.5em;
+    }
+
+    #page.ingressos > .sections{
+        display: none;
+    }
+    
+    #page.ingressos > .comprar > .left > .row > .text > p > a{
+        display: inline-block!important;
+        padding: 0px 20px!important;
+    }
+    
+    #page.ingressos > .comprar > .left > .row > .text > p:nth-child(6){
+        display: block;
+        padding-left: 5px;
+    }
+
+    #page .map-top > .container > .image{
+        width: 100%;
+        margin-top: 60px;
+        float: none;
+    }
+
+    #page .map-top > .container > .image > .map{
+        width: 100%;
+    }
+}

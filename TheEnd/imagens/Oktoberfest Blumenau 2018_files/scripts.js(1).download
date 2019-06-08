@@ -1,0 +1,41 @@
+var $ = jQuery;
+
+$(function() {
+	/**
+	 * Parallax
+	 */
+	$('.parallax').each(function() {
+		/*
+		var element = $(this);
+		var direction = $(this).data('direction');
+		var velocity = $(this).data('velocity');
+
+		var scroll_position = 0;
+		var scroll_direction = 'down';
+		var margin = 0;
+
+		$(window).scroll(function() {
+			scroll_direction = $(this).scrollTop() > scroll_position ? 'down' : 'top';
+			scroll_position = $(this).scrollTop();
+
+			if(direction == 'down') {
+				if(scroll_direction == 'top') {
+					margin -= 0.7 * (velocity ? velocity : 1);
+				} else {
+					margin += 0.7 * (velocity ? velocity : 1);
+				}
+			} else {
+				if(scroll_direction == 'down') {
+					margin -= 0.7 * (velocity ? velocity : 1);
+				} else {
+					margin += 0.7 * (velocity ? velocity : 1);
+				}
+			}
+
+			element.css({
+				'margin-top': margin
+			});
+		}).scroll();
+		*/
+	});
+});
